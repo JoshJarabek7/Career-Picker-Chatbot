@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Hello! I am a chatbot that helps you pick a career choice that requires a computer science degree.
+            What is your name?
+        </template>
+    </category>
+
+    <!-- Greeting -->
+
+    <category>
+        <pattern>*</pattern>
+        <template>
+            Hi <star/>! What is most interesting to you?
+            <button>Design</button>
+            <button>Programming</button>
+            <button>IT</button>
+            <button>Medicine</button>
+        </template>
+    </category>
+
+    <!-- Design -->
+
+    <category>
+        <pattern>DESIGN</pattern>
+        <template>
+            I recommend Web Developer!
+        </template>
+    </category>
+
+    <!-- Programming -->
+
+    <category>
+        <pattern>PROGRAMMING</pattern>
+        <template>
+            What programming language best suits you?
+            <button>Python</button>
+            <button>Java</button>
+            <button>CPP</button>
+        </template>
+    </category>
+
+    <!-- Python -->
+
+    <category>
+        <pattern>PYTHON</pattern>
+        <template>
+            Do you enjoy machine learning?
+            <button>Yes</button>
+            <button>No</button>
+        </template>
+    </category>
+
+    <!-- Python ML -->
+
+    <category>
+        <pattern>YES</pattern>
+        <template>
+            What sounds more interesting to you?
+            <button>How AI assistants work</button>
+            <button>How automated trading works</button>
+            <button>How a CEO makes their decisions</button>
+        </template>
+    </category>
+
+    <!-- Python ML A.I. -->
+
+    <category>
+        <pattern>HOW AI ASSISTANTS WORK</pattern>
+        <template>
+            I recommend ML/A.I. Engineer!
+        </template>
+    </category>
+
+    <!-- Python ML Automated Trading -->
+
+    <category>
+        <pattern>HOW AUTOMATED TRADING WORKS</pattern>
+        <template>
+            I recommend Quantitative Engineer!
+        </template>
+    </category>
+
+    <!-- Python ML CEO -->
+
+    <category>
+        <pattern>HOW A CEO MAKES THEIR DECISIONS</pattern>
+        <template>
+            I recommend Data Scientist!
+        </template>
+    </category>
+
+    <!-- Python No ML -->
+
+    <category>
+        <pattern>NO</pattern>
+        <template>
+            I recommend Back-End Engineer!
+        </template>
+    </category>
+
+    <!-- Java -->
+
+    <category>
+        <pattern>JAVA</pattern>
+        <template>
+            I recommend Software Developer!
+        </template>
+    </category>
+
+    <!-- C++ -->
+
+    <category>
+        <pattern>CPP</pattern>
+        <template>
+            What is more interesting to you?
+            <button>Video Games</button>
+            <button>Stock Market</button>
+            <button>Operating Systems</button>
+        </template>
+    </category>
+
+    <!-- C++ Video Games -->
+
+    <category>
+        <pattern>VIDEO GAMES</pattern>
+        <template>
+            I recommend Video Game Developer!
+        </template>
+    </category>
+
+    <!-- C++ Stock Market -->
+
+    <category>
+        <pattern>STOCK MARKET</pattern>
+        <template>
+            I recommend Quantitative Engineer!
+        </template>
+    </category>
+
+    <!-- C++ OS -->
+
+    <category>
+        <pattern>OPERATING SYSTEMS</pattern>
+        <template>
+            I recommend OS Engineer!
+        </template>
+    </category>
+
+    <!-- IT -->
+
+    <category>
+        <pattern>IT</pattern>
+        <template>
+            What is most interesting to you?
+            <button>Network</button>
+            <button>Security</button>
+            <button>Database</button>
+        </template>
+    </category>
+
+    <!-- IT Network -->
+
+    <category>
+        <pattern>NETWORK</pattern>
+        <template>
+            I recommend Network Engineer!
+        </template>
+    </category>
+
+    <!-- IT Security -->
+
+    <category>
+        <pattern>SECURITY</pattern>
+        <template>
+            What is more interesting to you?
+            <button>Securing the Network</button>
+            <button>Finding Exploits</button>
+        </template>
+    </category>
+
+    <!-- IT Security Securing -->
+
+    <category>
+        <pattern>SECURING THE NETWORK</pattern>
+        <template>
+            I recommend Cybersecurity Engineer!
+        </template>
+    </category>
+
+    <!-- IT Security Exploits -->
+
+    <category>
+        <pattern>FINDING EXPLOITS</pattern>
+        <template>
+            I recommend Ethical Hacker!
+        </template>
+    </category>
+
+    <!-- IT Database -->
+
+    <category>
+        <pattern>DATABASE</pattern>
+        <template>
+            I recommend Database Engineer!
+        </template>
+    </category>
+
+    <!-- Medicine -->
+
+    <category>
+        <pattern>MEDICINE</pattern>
+        <template>
+            I recommend Bioinformatics Engineer!
+        </template>
+    </category>
+</aiml>
